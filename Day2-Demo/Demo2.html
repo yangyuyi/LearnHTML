@@ -1,188 +1,206 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register Page</title>
-  </head>
-  <body>
-    <h2>Welcome!</h2>
-    <form>
-      <table>
-        <tr>
-          <td>Gender:</td>
-          <td>
-            <input type="radio" name="gender" id="male" checked="checked" />
-            <label for="male"> <img src="images/man.jpg" />&nbsp;male </label>
-            <input type="radio" name="gender" id="female" />
-            <label for="female">
-              <img src="images/women.jpg" />&nbsp;female
-            </label>
-          </td>
-        </tr>
-        <tr>
-          <td>Birth:</td>
-          <td>
-            <select name="birth-year">
-              <option>--YEAR--</option>
-              <option>2020</option>
-              <option>2019</option>
-              <option>2018</option>
-              <option>2017</option>
-              <option>2016</option>
-              <option>2015</option>
-              <option>2014</option>
-              <option>2013</option>
-              <option>2012</option>
-              <option>2011</option>
-              <option>2010</option>
-              <option>2009</option>
-              <option>2008</option>
-              <option>2007</option>
-              <option>2006</option>
-              <option>2005</option>
-              <option>2004</option>
-              <option>2003</option>
-              <option>2002</option>
-              <option>2001</option>
-              <option>2000</option>
-              <option>1999</option>
-              <option>1998</option>
-              <option>1997</option>
-              <option>1996</option>
-              <option>1995</option>
-              <option>1994</option>
-              <option>1993</option>
-              <option>1992</option>
-              <option>1991</option>
-              <option>1990</option>
-            </select>
-            <select name="birth-month">
-              <option>--MONTH--</option>
-              <option>Jan.</option>
-              <option>Feb.</option>
-              <option>Mar.</option>
-              <option>Apr.</option>
-              <option>May.</option>
-              <option>Jun.</option>
-              <option>Jul.</option>
-              <option>Aug.</option>
-              <option>Sep.</option>
-              <option>Oct.</option>
-              <option>Nov.</option>
-              <option>Dec.</option>
-            </select>
-            <select name="birth-date">
-              <option>--DATE--</option>
-              <option>01</option>
-              <option>02</option>
-              <option>03</option>
-              <option>04</option>
-              <option>05</option>
-              <option>06</option>
-              <option>07</option>
-              <option>08</option>
-              <option>09</option>
-              <option>10</option>
-              <option>11</option>
-              <option>12</option>
-              <option>13</option>
-              <option>14</option>
-              <option>15</option>
-              <option>16</option>
-              <option>17</option>
-              <option>18</option>
-              <option>19</option>
-              <option>20</option>
-              <option>21</option>
-              <option>22</option>
-              <option>23</option>
-              <option>24</option>
-              <option>25</option>
-              <option>26</option>
-              <option>27</option>
-              <option>28</option>
-              <option>29</option>
-              <option>30</option>
-              <option>31</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Location:</td>
-          <td>
-            <input type="text" name="location" value="your location" />
-          </td>
-        </tr>
-        <tr>
-          <td>Marriage:</td>
-          <td>
-            <input type="radio" name="marriage" id="single" checked="checked" />
-            <label for="single">Single</label>
-            <input type="radio" name="marriage" id="married" />
-            <label for="married">Married</label>
-            <input type="radio" name="marriage" id="divorced" />
-            <label for="divorced">Divorced</label>
-          </td>
-        </tr>
-        <tr>
-          <td>Education:</td>
-          <td>
-            <input type="text" value="your education" />
-          </td>
-        </tr>
-        <tr>
-          <td>Favor:</td>
-          <td>
-            <input type="checkbox" name="favor" id="Marvel"/>
-            <label for="Marvel">Marvel</label>
-            <input type="checkbox" name="favor" id="POI"/>
-            <label for="POI">Person of Interest</label>
-            <input type="checkbox" name="favor" id="HP"/>
-            <label for="HP">Harry Potter</label>
-            <input type="checkbox" name="favor" id="KE"/>
-            <label for="KE">Killing Eve</label>
-            <input type="checkbox" name="favor" id="GOT"/>
-            <label for="GOT">Game of Theorn</label>
-          </td>
-        </tr>
-        <tr>
-          <td>Self Intro:</td>
-          <td>
-            <textarea name="selfintro" cols="30" rows="5">self-introduction</textarea>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-              <input type="submit" value="submit">
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-              <input type="checkbox" checked="checked">
-              我同意注册条款和会员加入标准
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-              <a href="#">已是会员，立即登陆</a>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-              <h4>Best Wishes</h4>
-              <ul>
-                  <li>Joy</li>
-                  <li>Love</li>
-                  <li>Peace</li>
-              </ul>
-          </td>
-        </tr>
-      </table>
-    </form>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register Page</title>
+    </head>
+    <body>
+        <h2>Welcome!</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="male"
+                            checked="checked"
+                        />
+                        <label for="male">
+                            <img src="images/man.jpg" />&nbsp;male
+                        </label>
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">
+                            <img src="images/women.jpg" />&nbsp;female
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Birth:</td>
+                    <td>
+                        <select name="birth-year">
+                            <option>--YEAR--</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                            <option>1999</option>
+                            <option>1998</option>
+                            <option>1997</option>
+                            <option>1996</option>
+                            <option>1995</option>
+                            <option>1994</option>
+                            <option>1993</option>
+                            <option>1992</option>
+                            <option>1991</option>
+                            <option>1990</option>
+                        </select>
+                        <select name="birth-month">
+                            <option>--MONTH--</option>
+                            <option>Jan.</option>
+                            <option>Feb.</option>
+                            <option>Mar.</option>
+                            <option>Apr.</option>
+                            <option>May.</option>
+                            <option>Jun.</option>
+                            <option>Jul.</option>
+                            <option>Aug.</option>
+                            <option>Sep.</option>
+                            <option>Oct.</option>
+                            <option>Nov.</option>
+                            <option>Dec.</option>
+                        </select>
+                        <select name="birth-date">
+                            <option>--DATE--</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Location:</td>
+                    <td>
+                        <input
+                            type="text"
+                            name="location"
+                            value="your location"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marriage:</td>
+                    <td>
+                        <input
+                            type="radio"
+                            name="marriage"
+                            id="single"
+                            checked="checked"
+                        />
+                        <label for="single">Single</label>
+                        <input type="radio" name="marriage" id="married" />
+                        <label for="married">Married</label>
+                        <input type="radio" name="marriage" id="divorced" />
+                        <label for="divorced">Divorced</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Education:</td>
+                    <td>
+                        <input type="text" value="your education" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favor:</td>
+                    <td>
+                        <input type="checkbox" name="favor" id="Marvel" />
+                        <label for="Marvel">Marvel</label>
+                        <input type="checkbox" name="favor" id="POI" />
+                        <label for="POI">Person of Interest</label>
+                        <input type="checkbox" name="favor" id="HP" />
+                        <label for="HP">Harry Potter</label>
+                        <input type="checkbox" name="favor" id="KE" />
+                        <label for="KE">Killing Eve</label>
+                        <input type="checkbox" name="favor" id="GOT" />
+                        <label for="GOT">Game of Theorn</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Self Intro:</td>
+                    <td>
+                        <textarea name="selfintro" cols="30" rows="5">
+self-introduction</textarea
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="submit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" checked="checked" />
+                        我同意注册条款和会员加入标准
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <a href="#">已是会员，立即登陆</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <h4>Best Wishes</h4>
+                        <ul>
+                            <li>Joy</li>
+                            <li>Love</li>
+                            <li>Peace</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
 </html>
